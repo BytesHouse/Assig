@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600;800&display=swap');
+
+@font-face {
+    font-family: 'PT Root UI';
+    src: local('PT-Root-UI_Regular'),
+    url("./fonts/PT/PT-Root-UI_Regular.woff") format("woff"),
+    url("./fonts/PT/PT-Root-UI_Regular.woff2") format("woff2");
+
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PT Root UI';
+    src: local('PT-Root-UI_Bold'),
+    url("./fonts/PT/PT-Root-UI_Bold.woff") format('woff'),
+    url("./fonts/PT/PT-Root-UI_Bold.woff2") format('woff2');
+
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Product Sans';
+    src: local('Product_Sans_Regular'),
+    url("./fonts/product_sans/Product_Sans_Regular.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+

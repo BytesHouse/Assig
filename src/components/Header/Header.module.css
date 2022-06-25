@@ -1,0 +1,67 @@
+.header {
+    padding: 0 20px;
+    height: 80px;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.leftBlock {
+    display: flex;
+}
+.centerBlock {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 23px;
+    letter-spacing: 0.01em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+hr {
+    margin: 0 20px;
+    width: 100%;
+    max-width: 320px;
+    height: 0.5px;
+    background-color: #E7E5E4;
+    flex-wrap: wrap;
+}
+
+.rightBlock {
+    display: flex;
+    justify-content: end;
+    font-family: 'PT Root UI', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    height: 100%;
+}
+.rightBlock div {
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.rightBlock img {
+    height: 30px;
+    margin-bottom: 5px;
+}
+
+#burger {
+    width: 28px;
+    height: 28px;
+    background-image: url("./images/Menu.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-self: center;
+}
+
+#logo {
+    height: 75px;
+    margin-left: 60px;
+}
