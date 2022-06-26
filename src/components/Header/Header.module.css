@@ -6,11 +6,12 @@
     grid-template-columns: 1fr 4fr 1fr;
     justify-content: space-between;
     align-items: center;
+    box-shadow: 0 5px 15px 2px rgba(27, 25, 24, 0.05);
 }
-
 
 .leftBlock {
     display: flex;
+    align-items: center;
 }
 .centerBlock {
     text-align: center;
@@ -50,15 +51,39 @@ hr {
 .rightBlock img {
     height: 30px;
     margin-bottom: 5px;
+
 }
 
 #burger {
-    width: 28px;
-    height: 28px;
-    background-image: url("./images/Menu.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    align-self: center;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    cursor: pointer;
+}
+
+#burger span {
+    position: absolute;
+    top: 50%;
+    width: 30px;
+    background-color: black;
+    height: 1px;
+}
+
+#burger:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 30px;
+    background-color: black;
+    height: 1px;
+}
+#burger:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 30px;
+    background-color: black;
+    height: 1px;
 }
 
 #logo {
