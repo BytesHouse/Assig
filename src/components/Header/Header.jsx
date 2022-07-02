@@ -1,5 +1,9 @@
 import React, {useState} from 'react'
 import style from './Header.module.css'
+import Modal from '../Modal/Modal'
+import ModalR from '../ModalR/ModalR'
+import Login from './Login/Login'
+import Registr from './Registr/Registr'
 // import images
 import logo from './images/Logo.png'
 import users from './images/users.svg'
@@ -43,14 +47,8 @@ const Header = (props) => {
         <hr/>
     </div>
     <div className={style.rightBlock}>
-        <div>
-            <img src={users} alt="logare"/>
-            <span>Logare</span>
-        </div>
-        <div>
-            <img src={registr} alt="Înregistrare"/>
-            <span>Înregistrare</span>
-        </div>
+        <Modal />
+        <ModalR />
     </div>
     <Burger active={menuActive} setActive={setMenuActive} header={'Menu'} items={items}/>
     </header>
