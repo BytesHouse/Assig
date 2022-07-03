@@ -14,7 +14,7 @@ const Burger = ({header, items, active, setActive}) => {
                     </div>
                     <ul>
                         {items.map(item =>
-                            <li>
+                            <li key={item.value}>
                                 <img src={item.icon} alt=""/>
                                 <a href={item.href}>{item.value}</a>
                             </li>

@@ -1,0 +1,70 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'PT Root UI', sans-serif;
+}
+.content {
+    width: 100%;
+    /*text-align: center;*/
+}
+.leftSideBar, .rightSideBar {
+    width: 7em;
+    height: 100vh;
+    text-align: center;
+}
+.leftSideBar {
+    border-right: 1px solid #d4d4d4;
+}
+.rightSideBar {
+    border-left: 1px solid #d4d4d4;
+}
+hr {
+    margin: 35px auto;
+}
+
+/*-------------center-------------------*/
+
+.centerContainer {
+    max-width: 1180px;
+    margin: 90px auto;
+}
+.heading {
+    width: 100%;
+    height: 160px;
+    background-image: linear-gradient(85.58deg, #A40731 -0.38%, #830B3A 41.27%, #002359 103.58%);
+    border-radius: 7px;
+    box-shadow: 0 5px 15px 2px rgba(27, 25, 24, 0.05);
+}
+.heading h3 {
+    padding: 30px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.display {
+    display: flex;
+    margin-top: 30px;
+}
+
+.display > div {
+    width: 50%;
+}
+
+.display h3 {
+    color: #000000;
+    font-family: 'Raleway'. sans-serif;
+    font-weight: 800;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons > div {
+    display: flex;
+}

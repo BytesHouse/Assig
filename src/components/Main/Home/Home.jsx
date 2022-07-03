@@ -1,11 +1,75 @@
-// import style from './Home.module.css'
+import Languages from './Languages/Languages'
+import VerticalLine from './VerticalLine/VerticalLine'
+import style from './Home.module.css'
+import phone from './images/phone.svg'
+import messenger from './images/messengermes.svg'
+import watsUp from './images/whatsappwhatsapp.svg'
+import Block from './Block/Block'
+import Services from './Services/Services'
+import Cards from './Cards/Cards'
+
+import ArrayCasco from './arrayCasco'
 
 
 const Home = (props) => {
-    return <div>
-        <div>1</div>
-        <div>2</div>
-        <div>3</div>
+
+
+
+    const btnsNames = ['Carte verde', 'RCA', 'Casco', 'Medicală', 'Accidente', 'Bunuri', 'Locuințe (imobile)']
+
+    const info = {
+       phone : {
+           icon:phone,
+           content: 'Sună'
+       },
+       messenger : {
+           icon:messenger,
+           content:'Messenger'
+       },
+       watsUp : {
+           icon:watsUp,
+           content: 'Whatsapp'
+       }
+    }
+
+    return <div className={style.container}>
+        <div className={style.leftSideBar}>
+           <Languages />
+            <VerticalLine />
+            <Block image={info.phone.icon} name={info.phone.content}/>
+            <VerticalLine/>
+            <Block image={info.messenger.icon} name={info.messenger.content}/>
+            <hr/>
+            <Block image={info.watsUp.icon} name={info.watsUp.content} />
+        </div>
+        <div className={style.content}>
+            <div className={style.centerContainer}>
+                <div className={style.heading}>
+                    <h3>Alege tipul de asigurare</h3>
+                    <Services items={btnsNames} />
+                </div>
+                <div className={style.display}>
+                    <div className={style.leftBlock}>
+                        <h3>Alege tipul autovehiculului</h3>
+                        <Cards items={ArrayCasco}/>
+                        <div className={style.buttons}>
+                            <div>
+                                <div>arrow</div>
+                                <div>Înapoi</div>
+                            </div>
+                            <div>
+                                <div>Înainte</div>
+                                <div>arrow</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className={style.rightBlock}>
+                        right block
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div className={style.rightSideBar}>3</div>
     </div>
 }
 

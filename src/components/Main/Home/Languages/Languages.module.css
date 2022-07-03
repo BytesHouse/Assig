@@ -1,0 +1,23 @@
+.languageBox {
+    margin-top: 35px;
+}
+
+
+.langs{
+    cursor: pointer;
+    font-family: 'PT Root UI', sans-serif;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.active {
+    color: #A40731;
+}
+
+.verticalLine {
+    width: 1px;
+    background-color: #E7E5E4;
+    margin: 0 5px;
+}
