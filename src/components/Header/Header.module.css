@@ -65,31 +65,6 @@ hr {
     cursor: pointer;
 }
 
-#burger span {
-    position: absolute;
-    top: 50%;
-    width: 30px;
-    background-color: black;
-    height: 1px;
-}
-
-#burger:before{
-    content: '';
-    position: absolute;
-    top: 0;
-    width: 30px;
-    background-color: black;
-    height: 1px;
-}
-#burger:after{
-    content: '';
-    position: absolute;
-    bottom: 0;
-    width: 30px;
-    background-color: black;
-    height: 1px;
-}
-
 #logo {
     height: 75px;
     margin-left: 60px;

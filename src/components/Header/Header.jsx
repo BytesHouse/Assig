@@ -17,6 +17,7 @@ import events from './images/icons/star.svg'
 import news from './images/icons/support.svg'
 import questions from './images/icons/question.svg'
 import contacts from './images/icons/phone.svg'
+import burger from './images/Menu.svg'
 //import components
 import Burger from './Burger/Burger'
 
@@ -37,7 +38,7 @@ const Header = (props) => {
     return <header className={style.header}>
     <div className={style.leftBlock}>
         <div id={style['burger']} onClick={() => setMenuActive(!menuActive)}>
-            <span></span>
+            <img src={burger} alt="menu"/>
         </div>
         <img id={style['logo']} src={logo} alt="MiniCode"/>
     </div>

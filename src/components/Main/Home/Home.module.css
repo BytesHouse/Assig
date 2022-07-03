@@ -54,17 +54,49 @@ hr {
 
 .display h3 {
     color: #000000;
-    font-family: 'Raleway'. sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 28px;
     margin-bottom: 30px;
 }
 
 .buttons {
+    margin-top: 30px;
     display: flex;
     justify-content: space-between;
 }
 
 .buttons > div {
     display: flex;
+    padding: 15px 30px;
+}
+
+.buttons img {
+    width: 20px;
+}
+
+.primaryButton {
+    border-radius: 7px;
+    background-color: #A40731;
+}
+
+.primaryButton > div {
+    margin-right: 15px;
+    color: white;
+    font-family: 'PT Root UI',sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.secondaryButton {
+    border: 1px solid #A40731;
+    border-radius: 7px;
+    background-color: #ffffff;
+}
+
+.secondaryButton > div {
+    margin-left: 15px;
+    font-family: 'PT Root UI',sans-serif;
+    font-weight: 700;
+    font-size: 18px;
 }

@@ -7,6 +7,8 @@ import watsUp from './images/whatsappwhatsapp.svg'
 import Block from './Block/Block'
 import Services from './Services/Services'
 import Cards from './Cards/Cards'
+import arrowRight from './images/arrow-right.svg'
+import arrowLeft from './images/arrow-left.svg'
 
 import ArrayCasco from './arrayCasco'
 
@@ -53,13 +55,13 @@ const Home = (props) => {
                         <h3>Alege tipul autovehiculului</h3>
                         <Cards items={ArrayCasco}/>
                         <div className={style.buttons}>
-                            <div>
-                                <div>arrow</div>
+                            <div className={style.secondaryButton}>
+                                <img src={arrowRight} alt="arrow"/>
                                 <div>Înapoi</div>
                             </div>
-                            <div>
+                            <div className={style.primaryButton}>
                                 <div>Înainte</div>
-                                <div>arrow</div>
+                                <img src={arrowLeft} alt="arrow"/>
                             </div>
                         </div>
                     </div>
