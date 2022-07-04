@@ -16,39 +16,38 @@ import ArrayCasco from './arrayCasco'
 const Home = (props) => {
 
 
-
     const btnsNames = ['Carte verde', 'RCA', 'Casco', 'Medicală', 'Accidente', 'Bunuri', 'Locuințe (imobile)']
 
     const info = {
-       phone : {
-           icon:phone,
-           content: 'Sună'
-       },
-       messenger : {
-           icon:messenger,
-           content:'Messenger'
-       },
-       watsUp : {
-           icon:watsUp,
-           content: 'Whatsapp'
-       }
+        phone: {
+            icon: phone,
+            content: 'Sună'
+        },
+        messenger: {
+            icon: messenger,
+            content: 'Messenger'
+        },
+        watsUp: {
+            icon: watsUp,
+            content: 'Whatsapp'
+        }
     }
 
     return <div className={style.container}>
         <div className={style.leftSideBar}>
-           <Languages />
-            <VerticalLine />
+            <Languages/>
+            <VerticalLine/>
             <Block image={info.phone.icon} name={info.phone.content}/>
             <VerticalLine/>
             <Block image={info.messenger.icon} name={info.messenger.content}/>
             <hr/>
-            <Block image={info.watsUp.icon} name={info.watsUp.content} />
+            <Block image={info.watsUp.icon} name={info.watsUp.content}/>
         </div>
         <div className={style.content}>
             <div className={style.centerContainer}>
                 <div className={style.heading}>
                     <h3>Alege tipul de asigurare</h3>
-                    <Services items={btnsNames} />
+                    <Services items={btnsNames}/>
                 </div>
                 <div className={style.display}>
                     <div className={style.leftBlock}>

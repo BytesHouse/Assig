@@ -65,4 +65,5 @@ input:not(:last-child) {
     font-weight: 700;
     font-family: 'PT Root UI', sans-serif;
     background-color: #A40731;
+    cursor: pointer;
 }
