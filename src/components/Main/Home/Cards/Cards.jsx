@@ -3,7 +3,7 @@ import Card from './Card/Card'
 
 const Cards = ({items}) => {
     return <div className={style.gridDiv}>
-        {items.map(item => <Card image={item.image} description={item.description} value={item.value}/>)}
+        {items.map(item => <Card key={item.description} image={item.image} description={item.description} value={item.value}/>)}
         </div>
 }
 

@@ -8,7 +8,7 @@ import Registr from './Registr/Registr'
 import {auth} from '../../firebase-config'
 import User from './User/User'
 // import images
-import logo from './images/Logo.png'
+import logo from './images/Logo.svg'
 import users from './images/users.svg'
 import registr from './images/inreg.svg'
 import home from './images/icons/home.svg'

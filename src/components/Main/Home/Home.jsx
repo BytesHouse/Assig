@@ -1,5 +1,7 @@
+import React from 'react'
 import Languages from './Languages/Languages'
 import VerticalLine from './VerticalLine/VerticalLine'
+import RightBlock from './RightBlock/RightBlock'
 import style from './Home.module.css'
 import phone from './images/phone.svg'
 import messenger from './images/messengermes.svg'
@@ -64,13 +66,19 @@ const Home = (props) => {
                             </div>
                         </div>
                     </div>
-                    <div className={style.rightBlock}>
-                        right block
-                    </div>
+                        <RightBlock/>
                 </div>
             </div>
         </div>
-        <div className={style.rightSideBar}>3</div>
+        <div className={style.rightSideBar}>
+            <div>0</div>
+            <VerticalLine/>
+            <div>1</div>
+            <VerticalLine/>
+            <div>2</div>
+            <VerticalLine/>
+            <div>3</div>
+        </div>
     </div>
 }
 

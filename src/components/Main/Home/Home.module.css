@@ -9,7 +9,7 @@
 }
 .leftSideBar, .rightSideBar {
     width: 7em;
-    height: 100vh;
+    height: 120vh;
     text-align: center;
 }
 .leftSideBar {
@@ -17,6 +17,9 @@
 }
 .rightSideBar {
     border-left: 1px solid #d4d4d4;
+}
+.rightSideBar div {
+    margin-top: 35px;
 }
 hr {
     margin: 35px auto;

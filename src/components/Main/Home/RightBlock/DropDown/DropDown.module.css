@@ -1,0 +1,29 @@
+.dropDownWrapper{
+    margin-bottom: 20px;
+}
+
+.heading {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.heading h4 {
+    font-family: 'PT Root UI', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+.content {
+    padding: 20px 40px 20px 20px;
+    background-color: white;
+    border-top: 1px solid #A40731;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    font-family: 'PT Root UI', sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+}
