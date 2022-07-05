@@ -1,0 +1,9 @@
+/*.mainBlock {*/
+/*    background-image: url("images/backgroundDeals.jpg");*/
+/*    background-size: cover;*/
+/*}*/
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 80px 0px;
+}

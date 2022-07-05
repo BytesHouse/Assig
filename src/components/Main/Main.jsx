@@ -1,12 +1,13 @@
 // import styles from './Main.module.css'
 import Home from './Home/Home'
 import MiddleSection from './MiddleSection/MiddleSection'
+import Deals from './Deals/Deals'
 
 const Main = (props) => {
     return <div>
         <Home />
         <MiddleSection/>
-        <div>3</div>
+        <Deals/>
         <div>4</div>
     </div>
 }
